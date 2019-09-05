@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Destinations You've Visited</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>List Information About Destinations You've Visited</h1>
+        </div>
+      </div>
+      <form id="destinationInput">
+        <div class="row">
+          <div class="col">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Destination:</span>
+              </div>
+              <input type="text" id="inputDestination">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Activities To Do There:</span>
+              </div>
+              <input type="text" id="inputActivity">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Best Time of Year to Visit:</span>
+              </div>
+              <input type="text" id="inputTime">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-info">Add to List</button>
+          </div>
+        </div>
+      </form>
+      <div id="instruction" class="row">
+        <div class="col">
+          <p >Click on a destination to see more details<br></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul id="listPlaces"></ul>
+        </div>
+      </div>
+      <div id="moreInfo" class="row">
+        <div class="col">
+          <p>Place: <span class="place"></span></p>
+          <p>One Fun Activity: <span class="activity"></span></p>
+          <p>Best Time of Year to Visit: <span class="time"></span></p>
+        </div>
+        <div class="col">
+          <div id="buttons">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.row {
+  margin-top: 2em;
+}
+#moreInfo {
+  display: none;
+}
+#instruction {
+  display: none;
+}
